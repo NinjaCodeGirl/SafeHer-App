@@ -1,0 +1,25 @@
+body{
+background:#111;
+color:white;
+font-family:Arial,sans-serif;
+display:flex;
+justify-content:center;
+padding:20px;
+}
+.container{max-width:420px;width:100%;}
+.card{
+background:rgba(255,255,255,.08);
+padding:16px;
+border-radius:20px;
+margin:10px 0;
+}
+#sos{
+width:220px;height:220px;border-radius:50%;
+border:none;font-size:40px;
+background:#ff5c8a;color:white;
+display:block;margin:20px auto;
+}
+.actions button{
+width:100%;margin:6px 0;padding:12px;
+border:none;border-radius:12px;
+}

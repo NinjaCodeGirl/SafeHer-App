@@ -1,0 +1,41 @@
+# Miscellaneous
+*.element
+*.pyc
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+.atom/
+.building/
+.clwb/
+.idea/
+.vscode/
+.dart_tool/
+.pub-cache/
+.pub/
+
+# Environment
+.env
+
+# Android
+android/.gradle
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/key.properties
+android/app/debug/
+android/app/release/
+
+# iOS
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcodeproj/xcuserdata/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flt
+ios/Flutter/ephemeral/
+
+# Ignore all build output except build/web
+build/*
+!build/web/
